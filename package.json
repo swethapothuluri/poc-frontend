@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "frontend",
+=======
+  "name": "customerfe",
+>>>>>>> a867124d6cdd4df074eef876ad06607a0b8f7de1
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",

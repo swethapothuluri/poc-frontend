@@ -3,7 +3,11 @@
   "version": 1, 
   "newProjectRoot": "projects",
   "projects": {
+<<<<<<< HEAD
     "frontend": {
+=======
+    "customerfe": {
+>>>>>>> a867124d6cdd4df074eef876ad06607a0b8f7de1
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/frontend",
+=======
+            "outputPath": "dist/customerfe",
+>>>>>>> a867124d6cdd4df074eef876ad06607a0b8f7de1
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +70,30 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "frontend:build"
           },
           "configurations": {
             "production": {
               "browserTarget": "frontend:build:production"
+=======
+            "browserTarget": "customerfe:build"
+          },
+          "configurations": {
+            "production": {
+              "browserTarget": "customerfe:build:production"
+>>>>>>> a867124d6cdd4df074eef876ad06607a0b8f7de1
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+<<<<<<< HEAD
             "browserTarget": "frontend:build"
+=======
+            "browserTarget": "customerfe:build"
+>>>>>>> a867124d6cdd4df074eef876ad06607a0b8f7de1
           }
         },
         "test": {
@@ -110,15 +130,27 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
+<<<<<<< HEAD
             "devServerTarget": "frontend:serve"
           },
           "configurations": {
             "production": {
               "devServerTarget": "frontend:serve:production"
+=======
+            "devServerTarget": "customerfe:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "customerfe:serve:production"
+>>>>>>> a867124d6cdd4df074eef876ad06607a0b8f7de1
             }
           }
         }
       }
     }},
+<<<<<<< HEAD
   "defaultProject": "frontend"
+=======
+  "defaultProject": "customerfe"
+>>>>>>> a867124d6cdd4df074eef876ad06607a0b8f7de1
 }

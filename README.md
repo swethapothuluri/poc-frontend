@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Frontend
+=======
+# Customerfe
+>>>>>>> a867124d6cdd4df074eef876ad06607a0b8f7de1
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.5.
 
